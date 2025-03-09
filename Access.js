@@ -26,7 +26,7 @@ function validateAccess() {
 
     let data = { id: userID, code: accessCode };
 
-    fetch("https://script.google.com/macros/s/AKfycbzAKkyXFX6zFQem2BXzrwSjdLPeYH1mr5_Saf6-F5OSk_cwVz3_jfyMqAm9j0S99iLT5g/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbyOzosXZ8f-v0ioE6RZ_Rx8g9668qV4VttZtich67x7s30_zPZ6U5k0GVS_9BnZuT6CTA/exec", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
